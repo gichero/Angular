@@ -9,7 +9,7 @@ export class QuestionListComponent implements OnInit {
     questions:Object[];
 
   constructor() {
-      this.questions=[
+      this.questions = [
           {
               text:"What is your name?",
               answer:"My name is Amos"
@@ -20,9 +20,9 @@ export class QuestionListComponent implements OnInit {
           },
           {
               text:"What is your favorite language?",
-              answer:"My favorite language is Javascript"
+              answer:"My favorite language is JavaScript"
           }
-      ]
+      ];
   }
 
   ngOnInit() {
